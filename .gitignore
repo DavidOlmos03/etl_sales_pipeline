@@ -3,4 +3,64 @@
 /airflow/logs/
 /airflow/plugins/
 
+**/__pycache__/
+**/__init__.py
+
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos de dependencias compiladas
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de log y salida
+*.log
+*.out
+*.err
+
+# Archivos de Airflow
+airflow.cfg
+unittests.cfg
+webserver_config.py
+airflow.db
+airflow.db-journal
+scheduler.log
+logs/
+
+# Archivos temporales y de sistema
+*.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Configuración local
+.env
+*.env
+.env.*
+
+# Archivos de bases de datos SQLite
+*.sqlite3
+*.db
+
+# Archivos de Jupyter Notebook temporales
+.ipynb_checkpoints/
+
+# Carpeta de plugins y DAGs generados
+dags/__pycache__/
+plugins/__pycache__/
+
+# Archivos generados por herramientas de empaquetado
+dist/
+build/
+*.egg-info/
+
+# Carpetas específicas de PyCharm / VSCode
+.idea/
+.vscode/
 
