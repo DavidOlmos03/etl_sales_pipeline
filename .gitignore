@@ -1,0 +1,6 @@
+/data/
+/ETL_sales/
+/airflow/logs/
+/airflow/plugins/
+
+
